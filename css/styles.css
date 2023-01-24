@@ -1,3 +1,29 @@
-body{
+/*
+div{
+    background-color:#B9F3FC;
+}
+*/
+
+.Top-container{
+    background-color:#B9F3FC;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    padding: 20px;
+}
+
+.Middle-container{
     background-color: blue;
+    height: 200px;
+    width: 200px;
+    border: 20px solid black;
+    margin-left: 255px;
+}
+
+.Bottom-container{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    margin-left: 490px;
 }
