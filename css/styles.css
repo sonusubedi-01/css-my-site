@@ -6,24 +6,44 @@ div{
 
 .Top-container{
     background-color:#B9F3FC;
-    height: 200px;
+    /*height: 200px;
     width: 200px;
     border: 10px solid black;
-    padding: 20px;
+    padding: 20px;*/
+    position: relative;
+    bottom: 50px;
 }
 
 .Middle-container{
     background-color: blue;
     height: 200px;
     width: 200px;
-    border: 20px solid black;
-    margin-left: 255px;
+    display: inline-block;
+    /*border: 20px solid black;
+    margin-left: 255px;*/
+    position: relative;
+    left: 588px;
 }
 
 .Bottom-container{
     background-color: blueviolet;
     height: 200px;
     width: 200px;
-    border: 10px solid black;
-    margin-left: 490px;
+    /*border: 10px solid black;
+    margin-left: 490px;*/
+    display: inline-block;
+    position: relative;
+    right: 15px;
+    
+}
+
+.Last-container{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    right: 20px;
+    
+
 }
