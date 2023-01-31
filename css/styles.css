@@ -9,11 +9,21 @@ body{
     text-align: center;
     font-family:'merriweather' , serif;
 }
+
 h1{
+    font-size: 5.625rem;
     font-family: 'montez', cursive;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
 }
 h2{
+    font-size: 2.5rem;
     font-family:'montserrat', sans-serif ;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    color: #11999E;
 }
 
 .bottom-cloud{
@@ -34,35 +44,14 @@ h2{
 }
 
 .Middle-container{
-    background-color: blue;
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    /*border: 20px solid black;
-    margin-left: 255px;*/
-    position: relative;
-    left: 588px;
+    
 }
 
 .Bottom-container{
-    background-color: blueviolet;
-    height: 200px;
-    width: 200px;
-    /*border: 10px solid black;
-    margin-left: 490px;*/
-    display: inline-block;
-    position: relative;
-    right: 15px;
     
 }
 
-.Last-container{
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    position: relative;
-    right: 20px;
-    
 
+.profile-image{
+    height: 100px;
 }
